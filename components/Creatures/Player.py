@@ -6,6 +6,7 @@ class Player(Combatant):
         self.p_class = p_class
         self.inventory = None
         self.equipment = None
+        self.exp = None
         super(Player, self).__init__(*args, **kwargs)
 
     def levelUp(self):
