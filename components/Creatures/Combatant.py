@@ -1,4 +1,4 @@
-import Creature
+from Creature import Creature
 
 
 class Combatant(Creature):

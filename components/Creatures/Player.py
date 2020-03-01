@@ -1,4 +1,4 @@
-import Combatant
+from Combatant import Combatant
 
 
 class Player(Combatant):
