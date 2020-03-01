@@ -2,15 +2,12 @@ from Combatant import Combatant
 
 
 class Player(Combatant):
-    def __init__(self, p_class, *args, **kwargs):
+    def __init__(self, p_class=None, *args, **kwargs):
+        super(Player, self).__init__(*args, **kwargs)
         self.p_class = p_class
         self.inventory = None
         self.equipment = None
         self.exp = None
-        super(Player, self).__init__(*args, **kwargs)
-
-    def levelUp(self):
-        self.level += 1
 
     def notice(self, location):
         pass
