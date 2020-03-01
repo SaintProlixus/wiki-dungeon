@@ -1,5 +1,5 @@
 class Creature(object):
-    def __init__(self, name, race, gender):
+    def __init__(self, name, race=None, gender=None):
         self.name = name
         self.race = race
         self.gender = gender
