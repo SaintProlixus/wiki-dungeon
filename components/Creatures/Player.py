@@ -2,8 +2,9 @@ from Combatant import Combatant
 
 
 class Player(Combatant):
-    def __init__(self, p_class=None, *args, **kwargs):
+    def __init__(self, location=None, p_class=None, *args, **kwargs):
         super(Player, self).__init__(*args, **kwargs)
+        self.location = location
         self.p_class = p_class
         self.inventory = None
         self.equipment = None
