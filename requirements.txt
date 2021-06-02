@@ -32,7 +32,7 @@ srsly==1.0.1
 stevedore==1.32.0
 thinc==7.3.1
 tqdm==4.43.0
-urllib3==1.25.8
+urllib3==1.26.5
 wasabi==0.6.0
 webencodings==0.5.1
 wikipedia==1.4.0
